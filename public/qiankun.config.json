@@ -4,14 +4,15 @@
     "name": "account-user",
     "meta": {
       "title": "用户管理",
-      "icon": "renderIcon(PersonEdit24Regular)"
+      "iconName": "Guest24Regular"
     }
   },
   {
     "path": "about",
     "name": "About",
     "meta": {
-      "title": "角色管理"
+      "title": "角色管理",
+      "iconName": "PersonTag24Regular"
     }
   },
   {
@@ -19,6 +20,7 @@
     "name": "Home",
     "meta": {
       "title": "权限管理",
+      "iconName": "KeyMultiple20Regular",
       "default": true
     }
   }
