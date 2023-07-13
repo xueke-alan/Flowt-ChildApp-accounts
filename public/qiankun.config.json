@@ -1,0 +1,25 @@
+[
+  {
+    "path": "user",
+    "name": "account-user",
+    "meta": {
+      "title": "用户管理",
+      "icon": "renderIcon(PersonEdit24Regular)"
+    }
+  },
+  {
+    "path": "about",
+    "name": "About",
+    "meta": {
+      "title": "角色管理"
+    }
+  },
+  {
+    "path": "home",
+    "name": "Home",
+    "meta": {
+      "title": "权限管理",
+      "default": true
+    }
+  }
+]
