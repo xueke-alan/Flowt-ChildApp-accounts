@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import UserView from '../views/UserView.vue'
 import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
-
+import { baseUrl } from "../../public/qiankun.config.json";
 const routes = [
   {
     path: '/user',
@@ -26,7 +26,7 @@ const routes = [
 
 const router = createRouter({
   // base: window.__POWERED_BY_QIANKUN__ ? '/code' : '/', // 重点4：qiankun进入子应用时，返回true,
-  history: createWebHistory(window.__POWERED_BY_QIANKUN__ ? '/account' : '/'),
+  history: createWebHistory(window.__POWERED_BY_QIANKUN__ ? `/${baseUrl}` : '/'),
   // history: createWebHistory(process.env.BASE_URL),
   routes
 })

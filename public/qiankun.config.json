@@ -1,27 +1,30 @@
-[
-  {
-    "path": "user",
-    "name": "account-user",
-    "meta": {
-      "title": "用户管理",
-      "iconName": "Guest24Regular"
+{
+  "name": "flowt_miro_account",
+  "title": "账号管理",
+  "baseUrl": "account",
+  "group": "实验室管理",
+  "children": [
+    {
+      "path": "user",
+      "meta": {
+        "title": "账户管理",
+        "iconName": "Guest24Regular"
+      }
+    },
+    {
+      "path": "about",
+      "meta": {
+        "title": "角色管理",
+        "iconName": "PersonTag24Regular",
+        "default": true
+      }
+    },
+    {
+      "path": "home",
+      "meta": {
+        "title": "权限管理",
+        "iconName": "KeyMultiple20Regular"
+      }
     }
-  },
-  {
-    "path": "about",
-    "name": "About",
-    "meta": {
-      "title": "角色管理",
-      "iconName": "PersonTag24Regular"
-    }
-  },
-  {
-    "path": "home",
-    "name": "Home",
-    "meta": {
-      "title": "权限管理",
-      "iconName": "KeyMultiple20Regular",
-      "default": true
-    }
-  }
-]
+  ]
+}
