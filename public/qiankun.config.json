@@ -3,6 +3,7 @@
   "title": "账号管理",
   "baseUrl": "account",
   "group": "实验室管理",
+  "iconName": "PeopleSettings24Regular",
   "children": [
     {
       "path": "user",
@@ -15,8 +16,7 @@
       "path": "about",
       "meta": {
         "title": "角色管理",
-        "iconName": "PersonTag24Regular",
-        "default": true
+        "iconName": "PersonTag24Regular"
       }
     },
     {
