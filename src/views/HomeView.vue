@@ -1,4 +1,5 @@
 <template>
+  按权限分类建立tabs
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App" />
