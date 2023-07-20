@@ -2,7 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import UserView from '../views/UserView.vue'
 import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
-import { baseUrl } from "../../public/qiankun.config.json";
+import qiankunConfig from "../../public/qiankun.config.json";
+const baseUrl = qiankunConfig.baseUrl;
 const routes = [
   {
     path: '/user',

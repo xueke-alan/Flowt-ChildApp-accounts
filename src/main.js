@@ -5,6 +5,9 @@ import store from './store'
 
 // createApp(App).use(store).use(router).mount('#app')
 
+import Antd from 'ant-design-vue';
+import 'ant-design-vue/dist/reset.css';
+
 let instance = null;
 
 function render(props = {}) {
@@ -12,6 +15,7 @@ function render(props = {}) {
   instance = createApp(App);
   instance.use(store)
     .use(router)
+    .use(Antd)
     .mount(container ? container.querySelector('#app') : '#app');
   //这里的app是在public/index.html里的div的id,和之前主应用了配置的无关
 }
