@@ -3,7 +3,7 @@
     @tabChange="key => onTabChange(key, 'key')">
     <template #customTab="item">
       <span v-if="item.key === 'tab1'">
-        <home-outlined />
+    
         {{ item.key }}
       </span>
     </template>
@@ -28,7 +28,6 @@
   </div>
 </template>
 <script  setup>
-import { HomeOutlined } from '@ant-design/icons-vue';
 import { ref } from 'vue';
 const tabList = [
   {
