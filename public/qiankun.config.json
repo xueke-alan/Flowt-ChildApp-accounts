@@ -1,8 +1,7 @@
 {
-  "name": "flowt_micro_account",
-  "title": "组织架构",
-  "baseUrl": "account",
-  "group": "实验室管理",
+  "name": "flowt_micro_test",
+  "title": "测试页面",
+  "baseUrl": "test",
   "iconName": "PeopleSettings24Regular",
   "children": [
     {
